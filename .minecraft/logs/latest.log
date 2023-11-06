@@ -1,5 +1,5 @@
-[20:39:05] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.24
-[20:39:06] [main/INFO]: Loading 223 mods:
+[20:46:29] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.24
+[20:46:30] [main/INFO]: Loading 219 mods:
 	- ae2 15.0.14
 	   \-- team_reborn_energy 3.0.0
 	- appleskin 2.5.1+mc1.20
@@ -11,7 +11,6 @@
 	- bclib 3.0.13
 	   \-- wunderlib 1.1.5
 	- betteranimationscollection 8.0.0
-	- betterbeds 1.3.0
 	- betterdeserttemples 1.20-Fabric-3.0.3
 	   \-- org_reflections_reflections 0.10.2
 	- betterdungeons 1.20-Fabric-4.0.3
@@ -127,9 +126,6 @@
 	- heartbond 1.6.0
 	- highlighter 1.1.6
 	- iceberg 1.1.15
-	- immersive_portals 3.3.5
-	   |-- imm_ptl_core 3.3.5
-	   \-- q_misc_util 3.3.5
 	- indium 1.0.27+mc1.20.1
 	- inventoryessentials 8.2.1
 	- inventoryprofilesnext 1.10.9
@@ -228,265 +224,29 @@
 	   |-- com_akuleshov7_ktoml-core-jvm 0.4.1
 	   |-- dev_isxander_settxi_settxi-core 2.10.6
 	   \-- dev_isxander_settxi_settxi-kotlinx-serialization 2.10.6
-[20:39:07] [main/INFO]: Applying default options... (YOSBR)
-[20:39:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/MultiMC/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[20:39:07] [main/INFO]: Compatibility level set to JAVA_17
-[20:39:08] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 4 override(s) found
-[20:39:08] [main/INFO]: Loaded configuration file for ModernFix 5.9.0+mc1.20.1: 52 options available, 0 override(s) found
-[20:39:08] [main/INFO]: Applying Nashorn fix
-[20:39:08] [main/WARN]: [Satin] Iris is present, custom block renders will not work
-[20:39:08] [main/INFO]: Loaded configuration file for Sodium: 41 options available, 3 override(s) found
-[20:39:08] [main/INFO]: Loaded configuration file for Sodium Extra: 32 options available, 0 override(s) found
-[20:39:08] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:39:08] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:39:09] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[20:39:09] [main/WARN]: Force-disabling mixin 'entity.collisions.suffocation.EntityMixin' as rule 'mixin.entity.collisions.suffocation' (added by mods [apoli]) disables it and children
-[20:39:09] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.HeightmapAccessor' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
-[20:39:09] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.WorldChunkMixin' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
-[20:39:09] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [imm_ptl_core, krypton]) disables it and children
-[20:39:10] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[20:39:10] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[20:39:10] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[20:39:10] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
-[20:39:10] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
-[20:39:10] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[20:39:10] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[20:39:10] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[20:39:10] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[20:39:11] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[20:39:11] [main/INFO]: Searching for graphics cards...
-[20:39:11] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0).
-[20:39:12] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon RX 6650 XT, version=DriverVersion=31.0.22017.3004]
-[20:39:15] [main/WARN]: @Final field field_22786:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
-[20:39:15] [main/WARN]: @Final field field_33815:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
-[20:39:17] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[20:39:17] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[20:39:17] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[20:39:17] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[20:39:17] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[20:39:21] [main/WARN]: @Redirect conflict. Skipping imm_ptl.mixins.json:common.position_sync.MixinServerGamePacketListenerImpl from mod imm_ptl_core->@Redirect::redirectIsInTeleportationState(Lnet/minecraft/class_3222;)Z with priority 900, already redirected by carpet.mixins.json:ServerGamePacketListenerImpl_antiCheatDisabledMixin from mod carpet->@Redirect::relaxMoveRestrictions(Lnet/minecraft/class_3222;)Z with priority 1000
-[20:39:21] [main/WARN]: @Redirect conflict. Skipping imm_ptl.mixins.json:common.position_sync.MixinServerGamePacketListenerImpl from mod imm_ptl_core->@Redirect::redirectIsInTeleportationState(Lnet/minecraft/class_3222;)Z with priority 900, already redirected by carpet.mixins.json:ServerGamePacketListenerImpl_antiCheatDisabledMixin from mod carpet->@Redirect::relaxMoveRestrictions(Lnet/minecraft/class_3222;)Z with priority 1000
-[20:39:21] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[20:39:21] [main/WARN]: Method overwrite conflict for getConnection in krypton.mixins.json:shared.network.util.ServerPlayNetworkHandlerAccessor from mod krypton, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
-[20:39:23] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[20:39:23] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[20:39:23] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
-[20:39:23] [main/WARN]: Method overwrite conflict for getClimateSettings in supplementaries.mixins.json:BiomeAccessor from mod supplementaries, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
-[20:39:24] [main/INFO]: Vanilla bootstrap took 8718 milliseconds
-[20:39:24] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
-[20:39:24] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
-[20:39:24] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
-[20:39:24] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
-[20:39:24] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
-[20:39:24] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
-[20:39:24] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
-[20:39:24] [main/WARN]: [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
-[20:39:25] [Render thread/INFO]: [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
-[20:39:25] [Render thread/INFO]: Mixing MinecraftClientMixin from mixins.craftify.json into net.minecraft.class_310
-[20:39:25] [Render thread/INFO]: [LOAD MY RESOURCES] PackHandler initialized!
-[20:39:25] [Render thread/INFO]: [LOAD MY RESOURCES] Pack registered!
-[20:39:26] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:39:26] [Render thread/INFO]: Setting user: NotResoN8
-[20:39:27] [Render thread/INFO]: Bypassed Mojang DFU
-[20:39:27] [Render thread/INFO]: Apoli 2.9.0 has initialized. Ready to power up your game!
-[20:39:27] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_332::method_51435(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;)V has incompatible changes at opcode 152 in callback iceberg.mixins.json:GuiGraphicsMixin from mod iceberg->@Inject::storeLocalsOptifine(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/lang/Object;IIIILorg/joml/Vector2ic;)V.
- Expected: [Ljava/lang/Object;, I, I, I, I, Lorg/joml/Vector2ic;]
-    Found: [I, I, I, I, Lorg/joml/Vector2ic;]
-Available: [I, I, I, I, Lorg/joml/Vector2ic;]
-[20:39:28] [Render thread/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
-[20:39:28] [Render thread/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
-[20:39:28] [Render thread/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
-[20:39:28] [Render thread/INFO]: Constructing common components for betteranimationscollection:main
-[20:39:28] [Render thread/WARN]: Configuration file C:\MultiMC\instances\N8tionMC Reloaded\.minecraft\config\betteranimationscollection-client.toml is not correct. Correcting
-[20:39:28] [Render thread/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key general.sound_detection_range was corrected from null to its default, 1.5. 
-[20:39:28] [Render thread/WARN]: Incorrect key general.mob_blacklist was corrected from null to its default, []. 
-[20:39:28] [Render thread/WARN]: Incorrect key models was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.oinky_pig was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.bending_humanoid_knees was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.bucka_bucka_chicken was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.spitful_llama was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.spider_knees was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.squiggly_squid_tentacles was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.jiggly_liquidy_slime was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.wobbly_creeper was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.wobbly_cow_udder was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.playful_doggy was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.kneeling_sheep was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.arm_flailing_enderman was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.curly_cat_tail was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.animated_snow_man_stick was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.wiggly_ghast_tentacles was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.flowy_ocelot_tail was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.magma_cube_burger was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.wiggly_iron_golem_nose was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.wiggly_villager_nose was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key models.familiar_horse was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key oinky_pig was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key oinky_pig.mob_sounds was corrected from null to its default, [minecraft:entity.pig.ambient]. 
-[20:39:28] [Render thread/WARN]: Incorrect key oinky_pig.floaty_ears was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key oinky_pig.ear_animation_speed was corrected from null to its default, 10. 
-[20:39:28] [Render thread/WARN]: Incorrect key bucka_bucka_chicken was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key bucka_bucka_chicken.mob_sounds was corrected from null to its default, [minecraft:entity.chicken.ambient]. 
-[20:39:28] [Render thread/WARN]: Incorrect key bucka_bucka_chicken.slim_bill was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key bucka_bucka_chicken.move_head was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key bucka_bucka_chicken.wiggle_wattles was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key bucka_bucka_chicken.flap_wings was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key bucka_bucka_chicken.head_animation_speed was corrected from null to its default, 4. 
-[20:39:28] [Render thread/WARN]: Incorrect key bucka_bucka_chicken.wattles_animation_speed was corrected from null to its default, 5. 
-[20:39:28] [Render thread/WARN]: Incorrect key bucka_bucka_chicken.wing_animation_speed was corrected from null to its default, 3. 
-[20:39:28] [Render thread/WARN]: Incorrect key spitful_llama was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key spitful_llama.mob_sounds was corrected from null to its default, [minecraft:entity.llama.spit]. 
-[20:39:28] [Render thread/WARN]: Incorrect key squiggly_squid_tentacles was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key squiggly_squid_tentacles.tentacles_length was corrected from null to its default, 8. 
-[20:39:28] [Render thread/WARN]: Incorrect key jiggly_liquidy_slime was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key jiggly_liquidy_slime.animation_speed was corrected from null to its default, 5. 
-[20:39:28] [Render thread/WARN]: Incorrect key wobbly_creeper was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key wobbly_creeper.wobble_direction was corrected from null to its default, SIDE. 
-[20:39:28] [Render thread/WARN]: Incorrect key wobbly_cow_udder was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key wobbly_cow_udder.animation_speed was corrected from null to its default, 5. 
-[20:39:28] [Render thread/WARN]: Incorrect key wobbly_cow_udder.show_nipples was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key wobbly_cow_udder.calf_utter was corrected from null to its default, false. 
-[20:39:28] [Render thread/WARN]: Incorrect key playful_doggy was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key playful_doggy.tail_length was corrected from null to its default, 7. 
-[20:39:28] [Render thread/WARN]: Incorrect key playful_doggy.fluffy_tail was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key playful_doggy.animation_speed was corrected from null to its default, 5. 
-[20:39:28] [Render thread/WARN]: Incorrect key playful_doggy.sitting_behaviour was corrected from null to its default, LIE_DOWN_AND_BEG_FOR_MEAT. 
-[20:39:28] [Render thread/WARN]: Incorrect key arm_flailing_enderman was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key arm_flailing_enderman.animation_speed was corrected from null to its default, 5. 
-[20:39:28] [Render thread/WARN]: Incorrect key arm_flailing_enderman.fail_while_carrying was corrected from null to its default, true. 
-[20:39:28] [Render thread/WARN]: Incorrect key curly_cat_tail was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key curly_cat_tail.tail_length was corrected from null to its default, 15. 
-[20:39:28] [Render thread/WARN]: Incorrect key curly_cat_tail.animation_speed was corrected from null to its default, 7. 
-[20:39:28] [Render thread/WARN]: Incorrect key animated_snow_man_stick was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key animated_snow_man_stick.mob_sounds was corrected from null to its default, [minecraft:entity.snow_golem.shoot]. 
-[20:39:28] [Render thread/WARN]: Incorrect key wiggly_ghast_tentacles was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key wiggly_ghast_tentacles.max_tentacles_length was corrected from null to its default, 14. 
-[20:39:28] [Render thread/WARN]: Incorrect key wiggly_ghast_tentacles.animation_speed was corrected from null to its default, 5. 
-[20:39:28] [Render thread/WARN]: Incorrect key flowy_ocelot_tail was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key flowy_ocelot_tail.tail_length was corrected from null to its default, 15. 
-[20:39:28] [Render thread/WARN]: Incorrect key flowy_ocelot_tail.animation_speed was corrected from null to its default, 7. 
-[20:39:28] [Render thread/WARN]: Incorrect key wiggly_villager_nose was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:39:28] [Render thread/WARN]: Incorrect key wiggly_villager_nose.mob_sounds was corrected from null to its default, [minecraft:entity.villager.ambient, minecraft:entity.villager.trade, minecraft:entity.wandering_trader.ambient, minecraft:entity.wandering_trader.trade]. 
-[20:39:29] [Render thread/INFO]: Loading client config for betteranimationscollection
-[20:39:29] [Thread-2/INFO]: Reloading client config for betteranimationscollection
-[20:39:29] [Render thread/INFO]: Reflections took 102 ms to scan 1 urls, producing 1 keys and 2 values
-[20:39:29] [Render thread/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
-[20:39:29] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[20:39:29] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[20:39:29] [Render thread/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
-[20:39:29] [Render thread/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
-[20:39:29] [Render thread/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
-[20:39:29] [Render thread/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
-[20:39:29] [Render thread/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
-[20:39:29] [Render thread/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
-[20:39:30] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[20:39:30] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[20:39:30] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[20:39:30] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[20:39:30] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[20:39:30] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[20:39:30] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[20:39:30] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[20:39:30] [Render thread/INFO]: [betternether] =^..^=    BetterNether for 1.20    =^..^=
-[20:39:30] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[20:39:30] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[20:39:30] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[20:39:30] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[20:39:30] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[20:39:30] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[20:39:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[20:39:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[20:39:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[20:39:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[20:39:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[20:39:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[20:39:30] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[20:39:31] [Render thread/INFO]: Loading Collective version 6.80.
-[20:39:31] [Render thread/INFO]: [FANCYMENU] Loading v2.14.10 in client-side mode!
-[20:39:31] [Render thread/INFO]: [FANCYMENU] Level registry interactions allowed!
-[20:39:31] [Render thread/INFO]: Heartbond was initialized. Enjoy bonding!
-[20:39:31] [Render thread/INFO]: Loading Immersive Portals config
-[20:39:31] [Render thread/INFO]: IP Config Applied
-[20:39:31] [Render thread/INFO]: Immersive Portals Mod Initializing
-[20:39:31] [Render thread/INFO]: Dimensional Threading is not present
-[20:39:31] [Render thread/INFO]: Pehkui is not present
-[20:39:31] [Render thread/INFO]: Gravity API is not present
-[20:39:31] [Render thread/INFO]: [KONKRETE] Successfully initialized!
-[20:39:31] [Render thread/INFO]: [KONKRETE] Server-side libs ready to use!
-[20:39:32] [Render thread/INFO]: Compression will use Java, encryption will use Java
-[20:39:32] [Render thread/INFO]: Loaded config moonlight-client.json
-[20:39:32] [Render thread/INFO]: Origins 1.10.0 is initializing. Have fun!
-[20:39:32] [Render thread/INFO]: Constructing common components for puzzleslib:main
-[20:39:32] [Render thread/INFO]: [REI] Config loaded
-[20:39:32] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
-[20:39:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[20:39:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[20:39:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[20:39:32] [Render thread/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIPlugin
-[20:39:32] [Render thread/INFO]: [REI] Registered plugin provider AE2 [ae2] for REIPlugin
-[20:39:32] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIPlugin
-[20:39:32] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [betterend] for REIPlugin
-[20:39:32] [Render thread/INFO]: [REI] Registered plugin provider FarmersDelightModREI [farmersdelight] for REIPlugin
-[20:39:32] [Render thread/INFO]: [REI] Registered plugin provider ReiCompatibility [polymer-core] for REIPlugin
-[20:39:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider REICompat [supplementaries] for REIPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider ReiClientCompat [travelersbackpack] for REIPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider RoughlyEnoughItemsIntegration [waystones] for REIPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider ReiRecipeAction [wthit] for REIPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider ClientPlugin [wunderreich] for REIPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIServerPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[20:39:33] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[20:39:33] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[20:39:33] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[20:39:33] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[20:39:33] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[20:39:33] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
-[20:39:33] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[20:39:33] [Render thread/INFO]: [Fabric Seasons] Trying to read config file...
-[20:39:33] [Render thread/INFO]: [Fabric Seasons] A config file was found, loading it..
-[20:39:33] [Render thread/INFO]: [Fabric Seasons] Successfully loaded config file.
-[20:39:33] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
-[20:39:33] [Render thread/INFO]: Loaded config supplementaries-common.json
-[20:39:33] [Render thread/INFO]: Loaded config supplementaries-client.json
-[20:39:33] [Render thread/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[20:39:33] [Render thread/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[20:39:33] [Render thread/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[20:39:33] [Render thread/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[20:39:34] [Render thread/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[20:39:34] [Render thread/INFO]: Constructing common components for visualworkbench:main
-[20:39:34] [Render thread/WARN]: Configuration file C:\MultiMC\instances\N8tionMC Reloaded\.minecraft\config\visualworkbench-client.toml is not correct. Correcting
-[20:39:34] [Render thread/WARN]: Incorrect key rotate_ingredients was corrected from null to its default, true. 
-[20:39:34] [Render thread/WARN]: Incorrect key flat_rendering was corrected from null to its default, false. 
-[20:39:34] [Render thread/WARN]: Incorrect key render_result was corrected from null to its default, true. 
-[20:39:34] [Render thread/INFO]: Loading client config for visualworkbench
-[20:39:34] [Render thread/INFO]: [voicechat] Compatibility version 17
-[20:39:34] [Render thread/INFO]: [voicechat] Loading plugins
-[20:39:34] [Render thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[20:39:34] [Render thread/INFO]: [voicechat] Initializing plugins
-[20:39:34] [Render thread/INFO]: Initializing Simple Voice Chat integration
-[20:39:34] [Render thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[20:39:34] [Render thread/INFO]: [voicechat] Registering events for sound_physics_remastered
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin betternether:plugin at org.betterx.betternether.integrations.wthit.WailaPlugin
-[20:39:34] [Render thread/INFO]: [betternether] Registering Waila-/Wthit-Plugin.
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin polymer:core at eu.pb4.polymer.core.impl.client.compat.WthitCompatibility
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaPluginCore
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaPluginVanilla
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin waila:fabric at mcp.mobius.waila.plugin.fabric.WailaPluginFabric
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin waila:team_reborn_energy at mcp.mobius.waila.plugin.trenergy.WailaPluginTeamRebornEnergy
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin ae2:wthit at appeng.integration.modules.wthit.WthitModule
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin waystones:wthit at net.blay09.mods.waystones.compat.WTHITIntegration
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin wunderreich:global at de.ambertation.wunderreich.integration.wthit.WailaPlugin
-[20:39:34] [Render thread/INFO]: Registering Waila-/Wthit-Plugin.
-[20:39:34] [Render thread/INFO]: [WTHIT] Registering plugin waila:extra at mcp.mobius.waila.plugin.extra.WailaPluginExtra
-[20:39:34] [Render thread/WARN]: [WTHIT] Found plugins registered via legacy platform-dependant method:
-[20:39:34] [Render thread/WARN]: [WTHIT] [ae2:wthit, waystones:wthit, wunderreich:global]
-[20:39:34] [Render thread/WARN]: [WTHIT] The method will be removed on Minecraft 1.21
-[20:39:34] [Render thread/INFO]: [WTHIT] Using mcp.mobius.waila.plugin.core.pick.ObjectPicker as the object picker
-[20:39:34] [Render thread/INFO]: [WTHIT] Plugin config reloaded
+[20:46:30] [main/INFO]: Applying default options... (YOSBR)
+[20:46:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/MultiMC/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[20:46:30] [main/INFO]: Compatibility level set to JAVA_17
+[20:46:31] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 3 override(s) found
+[20:46:32] [main/INFO]: Loaded configuration file for ModernFix 5.9.0+mc1.20.1: 52 options available, 0 override(s) found
+[20:46:32] [main/INFO]: Applying Nashorn fix
+[20:46:32] [main/WARN]: [Satin] Iris is present, custom block renders will not work
+[20:46:32] [main/INFO]: Loaded configuration file for Sodium: 41 options available, 3 override(s) found
+[20:46:32] [main/INFO]: Loaded configuration file for Sodium Extra: 32 options available, 0 override(s) found
+[20:46:32] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:46:32] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:46:33] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[20:46:33] [main/WARN]: Force-disabling mixin 'entity.collisions.suffocation.EntityMixin' as rule 'mixin.entity.collisions.suffocation' (added by mods [apoli]) disables it and children
+[20:46:33] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[20:46:34] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[20:46:34] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[20:46:34] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[20:46:34] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[20:46:34] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[20:46:34] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[20:46:34] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[20:46:34] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[20:46:34] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[20:46:34] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[20:46:35] [main/INFO]: Searching for graphics cards...
+[20:46:35] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0).
